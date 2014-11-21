@@ -1,36 +1,6 @@
 <!-- client/home.html -->
-<head>
 
-</head>
-
-<body>
-
-	<header>
-		{{> header }}
-	</header>
-
-		{{> content }}
-
-	<footer>
-		{{> footer }}
-	</footer>
-	
-</body>
-
-
-<template name="header">
-	<div class="wrapper">
-		<img src="gfx/logo.png">
-		<span>Twitter Clone</span>
-		<p>
-			<input name="email" placeholder="email" type="text">
-			<input name="password" placeholder="password" type="password">
-			<input type="submit" id="btnLogOut" value="Log In">
-		</p>
-	</div>
-</template>
-
-<template name="content">
+<template name="homecontent">
 	<div id="content">
 		<div class="wrapper">
 			<img src="gfx/frog.jpg">
@@ -45,11 +15,5 @@
 				</p>
 			</div>
 		</div>
-	</div>
-</template>
-
-<template name="footer">
-	<div class="wrapper">
-		Ribbit - A Twitter Clone Tutorial<img src="gfx/logo-nettuts.png">
 	</div>
 </template>
