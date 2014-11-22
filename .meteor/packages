@@ -7,4 +7,5 @@ meteor-platform
 insecure
 less
 accounts-base
+accounts-password
 
