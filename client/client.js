@@ -31,7 +31,7 @@ Template.homecontent.events({
       email: userEmail,
       password: password,
       profile: {
-        name: name
+        name: fullname
       }
     }, function (error) {
       if (error) {
